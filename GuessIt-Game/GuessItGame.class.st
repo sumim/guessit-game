@@ -73,7 +73,7 @@ GuessItGame class >> example01autoHumanVsAutoHuman [
 
 { #category : #examples }
 GuessItGame class >> example02humanVsRandomAI [
-	" self example02humanVsRandomAI "
+	"self example02humanVsRandomAI"
 	| dealer deal human randomAI terminal game view winPlayer |
 	dealer := GIDealer seed: 1.
 	deal := dealer deal. "=> { hand1 -> #(4 5 8 9). hand2 -> #(2 3 6 7). restCard -> Card(1) } "
